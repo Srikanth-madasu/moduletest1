@@ -1,0 +1,159 @@
+/* header */
+.headerBase .logo {
+    height: 35px;
+    width: 77px;
+}
+
+
+.headerBase .border-right {
+    border-right: 1px solid #DADADA;
+
+}
+.headerBase .custom-btn{
+    padding: 5px 22px;
+        width: auto;
+        font-size: 18px;
+}
+
+.custom-btn {
+padding: 14px 27px;
+    width: 43%;
+    font-size: 19px;
+}
+
+.headerBase .dropdown-toggle::after {
+    display: none !important;
+}
+
+.headerBase .drp {
+    background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQCsvyE6x3xE6GH9PHEJLSXJTQgipWZhppoKVjADleoUHZfxgSRyP91X4wQ-tMNWuhcBm8SW8l1bpO_NPHjX8YF7oIulnFx_hEoZimjJgheWR-jx2TYzfN8i0WGwR3c6D_Z3ZLdOWwj0Evdxrk7Ie2yhxPJ_gZKYAIYnafPvAmLCJ38XvptD1B3Kk9phk/s19/Arrow.png) no-repeat right 12px;
+    padding-right: 23px !important;
+
+}
+
+/* index */
+.indexBase .hurryText {
+    background-color: #2f80ed;
+}
+
+.indexBase .strokeText {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.indexBase .applyBtn {
+    background-image: linear-gradient(to right top, #456fed, #5466f0, #665bf1, #784df0, #8b3aed);
+    font-size: 18px;
+}
+
+.indexBase .primaryText {
+    color: #2f80ed;
+}
+
+.indexBase .themeText {
+    color: #625aee;
+}
+
+.indexBase .primaryBg {
+    background-color: #2f80ed;
+}
+
+.indexBase .themeBg {
+    background-color: #625aee;
+}
+
+.indexBase .cardBase .card .batch {
+    background-color: #e0f3ff;
+    color: #2f80ed;
+}
+
+.indexBase .liveForm input {
+    border: 0;
+    background-color: #fafafa;
+
+}
+.clorBg {
+    background: url(./images/CTAForm.png) no-repeat 67% 0;
+    background-position: 79%;
+
+}
+
+.indexBase .coder {
+    top: -3%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.indexBase .arrow {
+    top: -73%;
+    right: -9%;
+    z-index: -26;
+
+
+}
+
+.indexBase .note {
+    font-size: 13px;
+}
+
+.indexBase .coder p {
+    font-size: 14px;
+}
+
+.indexBase .launchBase .card {
+    border: 0;
+    box-shadow: 1px -1px 19px 5px #ccc;
+
+}
+
+.indexBase .des {
+    font-size: 12px;
+
+}
+
+.indexBase .salaryBase {
+    box-shadow: 0px 0px 12px 1px #ccc;
+    background-color: #fff;
+
+}
+
+.indexBase .learnBase {
+    background-color: #ecf8ff;
+}
+
+.indexBase .learnBase .card.active {
+    border: 2px solid #2f80ed;
+}
+
+.indexBase .learnBase .intermediate .batch {
+    background-color: #ffeed8;
+    color: #9d5e0d;
+}
+
+.indexBase .partnersBase .hire {
+
+    background: -webkit-linear-gradient(#456fed, #784df0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.guaranteeLi li{
+    width: 49%;
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DADADA;
+}
+.guaranteeLi{
+    padding: 0 24px !important;
+}
+.aluminiBase img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
