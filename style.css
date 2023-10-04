@@ -1,4 +1,33 @@
+/* fonts */
+@font-face {
+    font-family: 'ABeeZeeRegular';
+    src: url('./fonts/ABeeZeeRegular.eot');
+    src: url('./fonts/ABeeZeeRegular.eot') format('embedded-opentype'),
+        url('./fonts/ABeeZeeRegular.woff2') format('woff2'),
+        url('./fonts/ABeeZeeRegular.woff') format('woff'),
+        url('./fonts/ABeeZeeRegular.ttf') format('truetype'),
+        url('./fonts/ABeeZeeRegular.svg#ABeeZeeRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'ABeeZeeItalic';
+    src: url('./fonts/ABeeZeeItalic.eot');
+    src: url('./fonts/ABeeZeeItalic.eot') format('embedded-opentype'),
+        url('./fonts/ABeeZeeItalic.woff2') format('woff2'),
+        url('./fonts/ABeeZeeItalic.woff') format('woff'),
+        url('./fonts/ABeeZeeItalic.ttf') format('truetype'),
+        url('./fonts/ABeeZeeItalic.svg#ABeeZeeItalic') format('svg');
+}
+
 /* header */
+* {
+    font-family: ABeeZeeRegular;
+}
+
+.f-italic {
+    font-family: ABeeZeeItalic !important;
+}
+
 .headerBase .logo {
     height: 35px;
     width: 77px;
@@ -9,16 +38,10 @@
     border-right: 1px solid #DADADA;
 
 }
-.headerBase .custom-btn{
-    padding: 5px 22px;
-        width: auto;
-        font-size: 18px;
-}
 
 .custom-btn {
-padding: 14px 27px;
-    width: 43%;
-    font-size: 19px;
+    padding: 8px 25px;
+    border: 1px solid #2f80ed;
 }
 
 .headerBase .dropdown-toggle::after {
@@ -42,12 +65,16 @@ padding: 14px 27px;
 
 }
 
+.indexBase.greyText {
+    color: #595959 !important;
+}
+
 .indexBase .applyBtn {
     background-image: linear-gradient(to right top, #456fed, #5466f0, #665bf1, #784df0, #8b3aed);
     font-size: 18px;
 }
 
-.indexBase .primaryText {
+ .primaryText {
     color: #2f80ed;
 }
 
@@ -73,6 +100,18 @@ padding: 14px 27px;
     background-color: #fafafa;
 
 }
+
+.indexBase .liveForm .nameIpt input{
+    background: url(./images/user.svg) no-repeat 3% 9px;
+    padding-left: 35px;
+
+}
+.indexBase .liveForm .numberIpt input{
+    background: url(./images/call.svg) no-repeat 3% 9px;
+    padding-left: 35px;
+
+}
+
 .clorBg {
     background: url(./images/CTAForm.png) no-repeat 67% 0;
     background-position: 79%;
@@ -107,20 +146,47 @@ padding: 14px 27px;
     box-shadow: 1px -1px 19px 5px #ccc;
 
 }
+.indexBase .launchBase .liveForm button {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+
+}
+.indexBase .launchBase .terms  {
+   font-size: 12px;
+
+}
 
 .indexBase .des {
-    font-size: 12px;
+    font-size: 11px;
 
 }
 
 .indexBase .salaryBase {
-    box-shadow: 0px 0px 12px 1px #ccc;
+    box-shadow: 0px 0px 5px 0px #ccc;
     background-color: #fff;
 
 }
 
 .indexBase .learnBase {
     background-color: #ecf8ff;
+}
+
+.indexBase .highSvg {
+    background: #ffbfbf;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 4px 4px;
+
+}
+
+.indexBase .jobSvg {
+    background: #baedbc;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 4px 4px;
+
 }
 
 .indexBase .learnBase .card.active {
@@ -131,6 +197,14 @@ padding: 14px 27px;
     background-color: #ffeed8;
     color: #9d5e0d;
 }
+.indexBase .learnBase  .batch {
+   font-size: 13px;
+}
+.indexBase .learnBase  button {
+   font-size: 16px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+}
 
 .indexBase .partnersBase .hire {
 
@@ -138,22 +212,82 @@ padding: 14px 27px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.guaranteeLi li{
+.indexBase .partnersBase button {
+    font-size: 18px;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+}
+
+.guaranteeLi li {
     width: 49%;
     display: inline-block;
     padding-bottom: 20px;
     border-bottom: 1px solid #DADADA;
 }
-.guaranteeLi{
+
+.guaranteeLi {
     padding: 0 24px !important;
 }
-.aluminiBase img{
-    width: 35px;
-    height: 35px;
+
+.aluminiBase img {
+    width: 60px;
+    height: 60px;
     object-fit: cover;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.aluminiBase .platform{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.aluminiBase .date{
+   font-size: 12px;
+}
+.aluminiBase p{
+   font-size: 15px;
+}
+.aluminiBase .aluminiCard{
+  border-width: 2px !important;
+  border-color: #676767;
+}
+.custom-margin {
+    margin-top: -53px !important;
+}
+.custom-margin-1{
+    margin-top: -10px !important;
+}
+.aluminiCardBase .aluminiCard{
+    min-height: 400px;
+}
+
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+
+}
+@media only screen and (min-width: 1233px) and (max-width: 1400px) {
+
+}
+@media only screen and (max-width:1232px) {
+    
+}
+
+@media only screen and (max-width:1023px) {
+
+}
+@media only screen and (min-width: 992px) and (max-width:1180px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 850px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+
 }
